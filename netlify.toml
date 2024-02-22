@@ -3,5 +3,7 @@
   publish = "out"
   functions = ".netlify/functions"
   [[plugins]]
+  package = "@netlify/plugin-sitemap"
+  [[plugins]]
   package = "@netlify/plugin-nextjs"
   
